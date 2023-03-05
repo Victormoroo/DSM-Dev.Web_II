@@ -1,7 +1,7 @@
-// Chamar a biblioteca do express
+// Chamar a biblioteca do express para criação de rotas
 const express = require('express');
 
-// Você da um "apelido" para a biblioteca express
+// Você da um "apelido" para a biblioteca
 const app = express();
 
 // Chamando a abertura do meu serviço
