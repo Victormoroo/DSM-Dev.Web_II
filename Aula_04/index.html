@@ -15,7 +15,7 @@
       <a :href="link" target="_blank">Google</a> <!-- Os dois pontos é basicamente a mesma coisa que ter escrito "v-bind:", porem deixa o código mais clean -->
       <h1>Trabalhando com v-on</h1>
       <input type="text" v-label="titulo" v-model="caixaText"> <!-- v-model é como se fosse um id -->
-      <button v-on:click="alterarValor">Enviar</button>
+      <button @:click="alterarValor">Enviar</button>
       <br>
       <span>{{titulo}}</span>
       <h1>Soma</h1>
